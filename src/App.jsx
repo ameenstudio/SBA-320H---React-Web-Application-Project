@@ -1,15 +1,21 @@
 import './App.css'
 import { Routes, Route } from 'react-router-dom'
+//Pages
 import Homepage from './pages/Homepage'
 import Characters from './pages/Characteres'
 import Episodes from './pages/Episodes';
 import Locations from './pages/Locations';
 import NotFound from './pages/NotFound';
+//components
+import Nav from './components/Nav/Nav';
+
 function App() {
   
 
   return (
     <>
+    {location.pathname !== '/' && <Nav />}
+    
       <Routes>
        <Route path="/" element={<Homepage />} />
         <Route path="/characters" element={<Characters />} />

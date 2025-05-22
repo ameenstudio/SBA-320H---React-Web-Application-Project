@@ -19,4 +19,6 @@
 .characterStatus,
 .characterOrigin {
   color: #274e13; 
+  text-align: left;
+  margin-left: 15px;
 }

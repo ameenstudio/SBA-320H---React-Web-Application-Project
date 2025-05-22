@@ -27,15 +27,17 @@ export default function Locations() {
         loading()
       ) : (
         <div className="locationGrid">
-          {locations.map((loc) => (
-            <div key={loc.id} className="locationCard">
-              <h2 className="locationName">{loc.name}</h2>
-              <p><strong>Type:</strong> {loc.type}</p>
-              <p><strong>Dimension:</strong> {loc.dimension}</p>
-              <p><strong>Residents:</strong> {loc.residents.length}</p>
-            </div>
-          ))}
-        </div>
+  {locations.map((loc) => (
+    <div key={loc.id} className="locationCard">
+      <div className="locationTop">{loc.name}</div>
+      <div className="locationBottom">
+        <p><strong>Type:</strong> {loc.type}</p>
+        <p><strong>Dimension:</strong> {loc.dimension}</p>
+        <p><strong>Residents:</strong> {loc.residents.length}</p>
+      </div>
+    </div>
+  ))}
+</div>
       )}
     </div>
   );

@@ -29,9 +29,12 @@ This project is a great way for me to demonstrate my ability to work with **Reac
 |Presentation|Thu 22/05|
 
 
-
-
-
+## Resources I’ve Used: ##
+- https://rickandmortyapi.com/documentation/#rest for API.
+- I used this tutorial to create my cards for Characters https://www.youtube.com/watch?v=4V8IDxmbvD0
+- https://wireframe.cc to build my wireframe.
+- https://cssgradient.io/ : for my color scheme.
+- Homepage Images: https://rickandmortyonehundredyearsrickandmortydotcom.wordpress.com/
 
 
 

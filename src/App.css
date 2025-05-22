@@ -52,28 +52,72 @@ h2{
 }
 
 .locationCard {
-  background: #85D2D0;
+  background: #ffffff;
   display: flex;
   flex-direction: column;
   border-radius: 15px;
   overflow: hidden;
-  box-shadow: 0 px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 19px rgba(145, 145, 145, 0.589);
+
   
 }
 
 .locationTop {
-  background: #665c85;
-  padding: 1 rem;
+  background: #DD9787;
+  
   font-size: 1.2rem;
   font-weight: bold;
-  color: #FFF4BD;
+  color: #ffffff;
   text-align: center;
+  padding: 20px;
 }
 
 .locationBottom {
   text-align: left;
-  background: #85D2D0;
+  background: #ffffff;
   font-size: 1.2rem;
   margin-left: 10px;
   color: #544b6d;
+}
+
+
+
+
+
+.episodeGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 2fr));
+  gap: 2.5rem;
+  
+}
+
+.episodeCard {
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(145, 145, 145, 0.589);
+
+  
+}
+
+.episodeTop {
+  background: #74D3AE;
+
+  
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #FFF4BD;
+  text-align: center;
+  padding: 20px;
+}
+
+.episodeBottom {
+  text-align: left;
+  background: #ffffff;
+  font-size: 1.2rem;
+  margin-left: 10px;
+  color: #544b6d;
+  
 }

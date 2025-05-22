@@ -14,7 +14,8 @@ function App() {
 
   return (
     <>
-    {location.pathname !== '/' && <Nav />}
+    {/* {location.pathname !== '/' && <Nav />} no longer needed*/}
+    <Nav />
     
       <Routes>
        <Route path="/" element={<Homepage />} />

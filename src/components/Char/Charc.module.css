@@ -1,5 +1,5 @@
 .characterCard {
-  background: linear-gradient(135deg, rgb(99, 226, 122), rgb(55, 175, 88));
+  background:#ffffff;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   border-radius: 15px;
 }
@@ -9,16 +9,16 @@
  
   object-fit: cover;
   margin-bottom: 12px;
-  border-radius: 15px;
+  border-radius: 15px 15px 0 0;
 }
 
 .characterName {
-  color: #2c3e50;
+  color: #283618;
 }
 .characterSpecies,
 .characterStatus,
 .characterOrigin {
-  color: #274e13; 
+  color: 283618; 
   text-align: left;
   margin-left: 15px;
 }

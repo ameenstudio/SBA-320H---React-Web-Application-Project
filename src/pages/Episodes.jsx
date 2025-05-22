@@ -26,12 +26,14 @@ export default function Episodes() {
       {!episodes ? (
         loading()
       ) : (
-        <div className="locationGrid">
+        <div className="episodeGrid">
           {episodes.map((ep) => (
-            <div key={ep.id} className="locationCard">
-              <h2 className="locationName">{ep.name}</h2>
-              <p><strong>Episode:</strong> {ep.episode}</p>
-              <p><strong>Air Date:</strong> {ep.air_date}</p>
+            <div key={ep.id} className="episodeCard">
+              <div className="episodeTop">{ep.name}</div>
+              <div className="episodeBottom">
+                <p><strong>Episode:</strong> {ep.episode}</p>
+                <p><strong>Air Date:</strong> {ep.air_date}</p>
+              </div>
             </div>
           ))}
         </div>

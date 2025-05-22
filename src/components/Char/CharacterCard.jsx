@@ -11,6 +11,8 @@ export default function CharacterCard({ character }) {
       <p className={styles.characterSpecies}>Species: {character.species}</p>
       <p className={styles.characterStatus}>Status: {character.status}</p>
       <p className={styles.characterOrigin}>Origin: {character.origin.name}</p>
+      <p className={styles.characterOrigin}>Gender: {character.gender}</p>
+      {/* <p className={styles.characterOrigin}>Location: {character.location.name}</p> */}
     </div>
   );
 }

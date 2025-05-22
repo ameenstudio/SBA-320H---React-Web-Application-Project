@@ -1,4 +1,4 @@
-I'm building a **React-based application** to showcase my skills in frontend development and API integration. It’s a **Rick & Morty Explorer**, where I fetch data from an external API and dynamically render characters, episodes, and locations in a structured, responsive UI.
+I've built a **React-based application** to showcase my skills in frontend development and API integration. It’s a **Rick & Morty Explorer**, where I fetch data from an external API and dynamically render characters, episodes, and locations in a structured, responsive UI.
 
 ### **Key Features of My App:**
 - **React State Management:** I'm handling data fetching and updates using hooks like `useState`, `useEffect`.
@@ -35,6 +35,7 @@ This project is a great way for me to demonstrate my ability to work with **Reac
 - https://wireframe.cc to build my wireframe.
 - https://cssgradient.io/ : for my color scheme.
 - Homepage Images: https://rickandmortyonehundredyearsrickandmortydotcom.wordpress.com/
+- logo : https://flyclipart.com/download-png#rick-and-morty-decal-decals-rick-and-morty-240911.png
 
 
 

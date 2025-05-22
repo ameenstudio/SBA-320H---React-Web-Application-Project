@@ -19,9 +19,11 @@ export default function Characters() {
     getData();
   }, []);
 
-  const loading = () => <h1>Loading...</h1>;
+  let loading = () => <h1>Loading...</h1>;
 
+  
   return (
+    
     <div className="">
       {!characters ? (
         loading()
